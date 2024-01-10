@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: right;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+}
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #ddd;
+}
