@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.intro img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact, .portfolio {
+    margin: 30px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
